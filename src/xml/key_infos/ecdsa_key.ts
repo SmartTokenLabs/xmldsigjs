@@ -6,7 +6,7 @@ import { Application } from "../../application";
 import { XmlSignature } from "../index";
 import { KeyInfoClause } from "./key_info_clause";
 
-export declare type NamedCurveType = string | "P-256" | "P-384" | "P-521";
+export declare type NamedCurveType = string | "K-256" | "P-256" | "P-384" | "P-521";
 
 /**
  *
@@ -189,6 +189,8 @@ export class EcdsaKeyValue extends KeyInfoClause {
 
 function GetNamedCurveOid(namedCurve: NamedCurveType | null): string {
     switch (namedCurve) {
+        case "K-256":
+            return "urn:oid:1.3.132.0.10";
         case "P-256":
             return "urn:oid:1.2.840.10045.3.1.7";
         case "P-384":
@@ -201,6 +203,8 @@ function GetNamedCurveOid(namedCurve: NamedCurveType | null): string {
 
 function GetNamedCurveFromOid(oid: string): NamedCurveType {
     switch (oid) {
+        case "urn:oid:1.3.132.0.10":
+            return "K-256";
         case "urn:oid:1.2.840.10045.3.1.7":
             return "P-256";
         case "urn:oid:1.3.132.0.34":

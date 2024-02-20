@@ -1,5 +1,5 @@
 {
-  "name": "xmldsigjs",
+  "name": "@tokenscript/xmldsigjs",
   "version": "2.5.1",
   "description": "XMLDSIGjs provides an implementation of XMLDSIG in Typescript/Javascript based on WebCrypto ",
   "main": "build/index.js",
