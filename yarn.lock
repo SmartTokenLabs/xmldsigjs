@@ -1043,6 +1043,15 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@tokenscript/xml-core@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@tokenscript/xml-core/-/xml-core-1.1.6.tgz#6c72ec915b51998a7e0d2421759135a18f6f7ca7"
+  integrity sha512-r8avSYj0zhm2hTx/K7TuAZhpnR5d0CLb41SfgA5kDCwLuE3/00Dxkbmcu9GpLGJv/VrL2rUxZ4kHyl4+lDdQqg==
+  dependencies:
+    "@xmldom/xmldom" "^0.9.0-beta.11"
+    tslib "^2.4.0"
+    xpath.js "^1.1.0"
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.9.tgz#df4907fc07a886922637b15e02d4cebc4c0021b2"
@@ -1090,10 +1099,15 @@
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.2.tgz#97d26e00cd4a0423b4af620abecf3e6f442b7975"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
 
-"@xmldom/xmldom@^0.8.2", "@xmldom/xmldom@^0.8.6":
+"@xmldom/xmldom@^0.8.6":
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.6.tgz#8a1524eb5bd5e965c1e3735476f0262469f71440"
   integrity sha512-uRjjusqpoqfmRkTaNuLJ2VohVr67Q5YwDATW3VU7PfzTj6IRaihGrYI7zckGZjxQPBIp63nfvJbM+Yu5ICh0Bg==
+
+"@xmldom/xmldom@^0.9.0-beta.11":
+  version "0.9.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.9.0-beta.11.tgz#2c5d8df27dad84c84827d1482cc1c3a6883af09e"
+  integrity sha512-UJcY9U+YIz5NjvmAZfXFC48+dIvtqguMbbIozsyQCoPBnxizTRRepBeVtiLUJCIDxLkQVQdoFx+gj6vOr8bO+Q==
 
 acorn-walk@^8.1.1:
   version "8.2.0"
@@ -2997,15 +3011,6 @@ write-file-atomic@^3.0.0:
     is-typedarray "^1.0.0"
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
-
-xml-core@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/xml-core/-/xml-core-1.1.5.tgz#40dde48d16139e9093d32e7dffdb4c6a0305d5ea"
-  integrity sha512-6pZbMgvvtSxXSLmWkUPgFi274oljUHCBKm9GS4ySCXhXCODbJwB8e/UHHzbnnm4X1vVWMfXcip2vrLxN6KSbMw==
-  dependencies:
-    "@xmldom/xmldom" "^0.8.2"
-    tslib "^2.4.0"
-    xpath.js "^1.1.0"
 
 xpath.js@^1.1.0:
   version "1.1.0"

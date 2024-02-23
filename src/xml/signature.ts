@@ -1,5 +1,5 @@
-import { XmlAttribute, XmlChildElement, XmlElement } from "xml-core";
-import { XmlBase64Converter } from "xml-core";
+import { XmlAttribute, XmlChildElement, XmlElement } from "@tokenscript/xml-core";
+import { XmlBase64Converter } from "@tokenscript/xml-core";
 
 import { DataObjects } from "./data_object";
 import { KeyInfo } from "./key_info";

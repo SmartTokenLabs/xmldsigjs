@@ -1,5 +1,5 @@
-import { XmlNodeType } from "xml-core";
-import { XmlAttribute, XmlElement } from "xml-core";
+import { XmlNodeType } from "@tokenscript/xml-core";
+import { XmlAttribute, XmlElement } from "@tokenscript/xml-core";
 
 import { KeyInfoClause, KeyInfoX509Data, KeyValue, SPKIData } from "./key_infos";
 import { XmlSignature } from "./xml_names";

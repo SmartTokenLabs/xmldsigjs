@@ -1,4 +1,4 @@
-import * as XmlCore from "xml-core";
+import * as XmlCore from "@tokenscript/xml-core";
 
 import { Transform } from "../transform";
 import { XmlSignature } from "../xml_names";

@@ -1,6 +1,6 @@
-import { XE, XmlError } from "xml-core";
-import { Convert } from "xml-core";
-import { XmlChildElement, XmlElement } from "xml-core";
+import { XE, XmlError } from "@tokenscript/xml-core";
+import { Convert } from "@tokenscript/xml-core";
+import { XmlChildElement, XmlElement } from "@tokenscript/xml-core";
 
 import { X509Certificate } from "../../pki";
 import { XmlSignature } from "../xml_names";

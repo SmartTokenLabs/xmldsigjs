@@ -6,4 +6,4 @@ export * from "./xml";
 export * from "./pki";
 export * from "./xml/key_infos";
 export * from "./signed_xml";
-export { Select, Parse, Stringify} from "xml-core";
+export { Select, Parse, Stringify} from "@tokenscript/xml-core";

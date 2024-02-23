@@ -1,4 +1,4 @@
-import { Convert } from "xml-core";
+import { Convert } from "@tokenscript/xml-core";
 import { Application } from "./application";
 
 export type BASE64 = string;

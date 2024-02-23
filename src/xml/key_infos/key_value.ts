@@ -1,5 +1,5 @@
-import * as XmlCore from "xml-core";
-import { XE, XmlElement, XmlError } from "xml-core";
+import * as XmlCore from "@tokenscript/xml-core";
+import { XE, XmlElement, XmlError } from "@tokenscript/xml-core";
 
 import { ECDSA, RSA_PKCS1, RSA_PSS } from "../../algorithms";
 import { XmlSignature } from "../xml_names";

@@ -1,5 +1,5 @@
 import { CryptoEngine, setEngine } from "pkijs";
-import { XE, XmlError } from "xml-core";
+import { XE, XmlError } from "@tokenscript/xml-core";
 
 export interface CryptoEx extends Crypto {
     name: string;

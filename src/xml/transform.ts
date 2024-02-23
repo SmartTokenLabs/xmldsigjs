@@ -1,6 +1,6 @@
-import { XE, XmlError } from "xml-core";
-import { XmlAttribute, XmlChildElement, XmlElement } from "xml-core";
-import * as XmlCore from "xml-core";
+import { XE, XmlError } from "@tokenscript/xml-core";
+import { XmlAttribute, XmlChildElement, XmlElement } from "@tokenscript/xml-core";
+import * as XmlCore from "@tokenscript/xml-core";
 
 import { XmlSignature } from "./xml_names";
 import { XmlSignatureObject } from "./xml_object";

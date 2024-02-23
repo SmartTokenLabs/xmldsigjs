@@ -3,7 +3,7 @@ import {
     XmlAttribute, XmlBase64Converter, XmlChildElement,
     XmlElement, XmlError, XmlNumberConverter,
     XmlObject,
-} from "xml-core";
+} from "@tokenscript/xml-core";
 
 import { RSA_PKCS1, RSA_PSS, SHA1, SHA256, SHA384, SHA512 } from "../../algorithms";
 import { Application } from "../../application";

@@ -1,4 +1,4 @@
-import { XmlAttribute, XmlChildElement, XmlElement } from "xml-core";
+import { XmlAttribute, XmlChildElement, XmlElement } from "@tokenscript/xml-core";
 
 import { CanonicalizationMethod } from "./canonicalization_method";
 import { References } from "./reference";

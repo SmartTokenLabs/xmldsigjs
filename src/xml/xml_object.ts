@@ -1,5 +1,5 @@
-import { XmlCollection, XmlObject } from "xml-core";
-import { XmlElement } from "xml-core";
+import { XmlCollection, XmlObject } from "@tokenscript/xml-core";
+import { XmlElement } from "@tokenscript/xml-core";
 
 import { XmlSignature } from "./xml_names";
 

@@ -1,4 +1,4 @@
-import { XmlAttribute, XmlBase64Converter, XmlChildElement, XmlElement } from "xml-core";
+import { XmlAttribute, XmlBase64Converter, XmlChildElement, XmlElement } from "@tokenscript/xml-core";
 
 import { DigestMethod } from "./digest_method";
 import { Transforms } from "./transform_collection";

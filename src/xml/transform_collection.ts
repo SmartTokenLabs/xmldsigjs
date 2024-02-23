@@ -1,5 +1,5 @@
-import { XE, XmlError } from "xml-core";
-import { XmlElement } from "xml-core";
+import { XE, XmlError } from "@tokenscript/xml-core";
+import { XmlElement } from "@tokenscript/xml-core";
 
 import { Transform } from "./transform";
 import { XmlSignature } from "./xml_names";

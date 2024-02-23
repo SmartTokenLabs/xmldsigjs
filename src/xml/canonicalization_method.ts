@@ -1,4 +1,4 @@
-import {XmlAttribute, XmlElement} from "xml-core";
+import {XmlAttribute, XmlElement} from "@tokenscript/xml-core";
 
 import {XmlSignature} from "./xml_names";
 import {XmlSignatureObject} from "./xml_object";

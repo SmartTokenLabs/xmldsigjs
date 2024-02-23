@@ -1,4 +1,4 @@
-import * as XmlCore from "xml-core";
+import * as XmlCore from "@tokenscript/xml-core";
 
 import { ISignatureAlgorithm } from "./algorithm";
 import * as Alg from "./algorithms";
